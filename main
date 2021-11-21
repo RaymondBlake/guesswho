@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html><head>
+        <style>        
+        body {
+        margin: 0;
+
+      }
+
+      .container {
+        width:  100vw;
+        height:  100vh;
+        display: grid;
+  
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr  ;
+        gap:  1px;
+        padding:  0px;
+
+      }
+
+      .container div {
+       /* padding:  1px;
+
+        border:  solid #000000; */
+
+      }
+
+      .one {
+        grid-column-start: 1;
+        grid-column-end:  2;
+        grid-row-start:  1;
+        grid-row-end:  2;
+
+      }
+
+      .two {
+        grid-column-start:  2;
+        grid-column-end:  3;
+        grid-row-start:  1;
+        grid-row-end:  2;
+
+
+      }
+
+      .three {
+        grid-column-start:  1;
+        grid-column-end:  2;
+        grid-row-start:  2;
+        grid-row-end:  3;
+
+
+
+      }
+
+
+ .four {
+        grid-column-start:  2;
+        grid-column-end:  3;
+        grid-row-start:  2;
+        grid-row-end:  3;
+
+        }
+ .five {
+        grid-column-start:  1;
+        grid-column-end:  2;
+        grid-row-start:  3;
+        grid-row-end:  4;
+
+
+
+      }
+
+      .six {
+        grid-column-start:  2;
+        grid-column-end:  3;
+        grid-row-start: 3;
+        grid-row-end:  4;
+
+      }
+
+       .seven {
+        grid-column-start:  1;
+        grid-column-end:  2;
+        grid-row-start: 4;
+        grid-row-end:  5;
+
+      }
+        .eight {
+          grid-column-start:  2;
+          grid-column-end:  3;
+          grid-row-start: 4;
+          grid-row-end:  5;
+
+      }
+      .nine {
+          grid-column-start:  1;
+          grid-column-end:  2;
+          grid-row-start: 5;
+          grid-row-end:  6;
+
+      }
+
+      .ten {
+          grid-column-start:  2;
+          grid-column-end:  3;
+          grid-row-start: 5;
+          grid-row-end:  6;
+
+      }
+
+        .eleven {
+          grid-column-start:  1;
+          grid-column-end:  2;
+          grid-row-start: 6;
+          grid-row-end:  7;
+
+      }
+
+      .twelve {
+          grid-column-start:  2;
+          grid-column-end:  3;
+          grid-row-start: 6;
+          grid-row-end:  7;
+
+      }
+
+      .thirteen {
+          grid-column-start:  1;
+          grid-column-end:  2;
+          grid-row-start: 7;
+          grid-row-end:  8;
+
+      }
+
+      .fourteen {
+          grid-column-start:  2;
+          grid-column-end:  3;
+          grid-row-start: 7;
+          grid-row-end:  8;
+
+      }
+
+
+      .fifteen {
+          grid-column-start:  1;
+          grid-column-end:  2;
+          grid-row-start: 8;
+          grid-row-end:  9;
+
+      }
+
+        .sixteen {
+          grid-column-start:  2;
+          grid-column-end:  3;
+          grid-row-start: 8;
+          grid-row-end:  9;
+
+      }
+
+       .seventeen {
+          grid-column-start:  1;
+          grid-column-end:  2;
+          grid-row-start: 9;
+          grid-row-end:  10;
+
+      }
+
+        .eighteen {
+          grid-column-start:  2;
+          grid-column-end:  3;
+          grid-row-start: 9;
+          grid-row-end:  10;
+
+      }
+
+        .nineteen {
+          grid-column-start:  1;
+          grid-column-end:  2;
+          grid-row-start: 10;
+          grid-row-end:  11;
+
+      }
+
+        .twenty {
+          grid-column-start:  2;
+          grid-column-end:  3;
+          grid-row-start: 10;
+          grid-row-end:  11;
+
+      }
+ .twentyone {
+          grid-column-start:  1;
+          grid-column-end:  2;
+          grid-row-start: 11;
+          grid-row-end:  12;
+
+      }
+
+      .twentytwo {
+          grid-column-start:  2;
+          grid-column-end:  3;
+          grid-row-start: 11;
+          grid-row-end:  12;
+
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        </style>
+    </head>
+    <!-- Hello, this is a comment tag. this is where I could put little notes for other coders to help them understand my code -->
+
+
+      
+<body>
+<p><audio id="myAudio">
+
+      </audio></p>
+<div class="container">
+<div class="one"><span id = "jaiunebarbe" onmouseover="test(this)" onmousedown="test(this)" onmouseleave="unbold(this)"> J'ai une barbe </span></div>
+<div class="two"> I have a beard </div>
+
+<div class="three"><span id = "jaiunemoustache" onmouseover="test(this)" onmousedown="test(this)" onmouseleave="unbold(this)"> J'ai une moustache </span></div>
+<div class="four">I have a moustache</div>
+<div class="five"><span id = "jailesyeuxnoisettes" onmouseover="test(this)" onmousedown="test(this)" onmouseleave="unbold(this)"> J'ai les yeux noisettes </span></div>
+<div class="six">I have hazel eyes</div>
+<div class="seven"><span id = "jailescheveuxbruns" onmouseover="test(this)" onmousedown="test(this)" onmouseleave="unbold(this)"> J'ai les cheveux bruns </span></div>
+<div class="eight">I have brown hair</div>
+<div class="nine"><span id = "jeportedeslunettes" onmouseover="test(this)" onmousedown="test(this)" onmouseleave="unbold(this)"> Je porte des lunettes </span></div>
+<div class="ten">I am wearing glasses</div>
+
+<div class="eleven"><span id = "jeporteunechemiserouge" onmouseover="test(this)" onmousedown="test(this)" onmouseleave="unbold(this)"> Je porte une chemise rouge </span></div>
+<div class="twelve">I am wearing a red shirt</div>
+
+<div class="thirteen"><span id = "jeporteunchapeau" onmouseover="test(this)" onmousedown="test(this)" onmouseleave="unbold(this)"> Je porte un chapeau </span></div>
+<div class="fourteen">I am wearing a hat</div>
+
+<div class="fifteen"><span id = "jesuisunefille" onmouseover="test(this)" onmousedown="test(this)" onmouseleave="unbold(this)"> Je suis une fille </span></div>
+<div class="sixteen">I am a girl</div>
+
+<div class="seventeen"><span id = "jesuisunefemme" onmouseover="test(this)" onmousedown="test(this)" onmouseleave="unbold(this)"> Je suis une femme </span></div>
+<div class="eighteen">I am a woman</div>
+
+<div class="nineteen"><span id = "jesuisungarcon" onmouseover="test(this)" onmousedown="test(this)" onmouseleave="unbold(this)"> Je suis un garcon </span></div>
+<div class="twenty">I am a boy</div>
+
+<div class="twentyone"><span id = "jesuisunhomme" onmouseover="test(this)" onmousedown="test(this)" onmouseleave="unbold(this)"> Je suis un homme </span></div>
+<div class="twentytwo">I am a man</div>
+
+</div>
+<p>
+<script>
+function test(e) {
+      //alert(e.id);
+    
+
+    //function play_audio() {
+      e.style.fontWeight = "900";
+      x = document.getElementById("myAudio");
+      x.src= e.id +".MP3";
+
+      x.play();
+      }
+
+      function unbold(e)
+      {
+
+        e.style.fontWeight = "400";
+      }
+
+
+
+  
+</script>
+</p>
+</body></html>
